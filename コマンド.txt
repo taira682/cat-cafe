@@ -1,0 +1,15 @@
+#sailの立ち上げ
+./vendor/bin/sail up
+
+#シェルエイリアスの設定
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
+#動作確認
+sail up -d
+
+sail stop //閉じるときにでいい
+
+
+#php artisan～はsail artisan～と記述
+
+
