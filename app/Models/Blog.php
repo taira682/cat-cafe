@@ -9,5 +9,5 @@ class Blog extends Model
 {
     use HasFactory;
 
-    public $fillable = ['title', 'body'];
+    public $fillable = ['title', 'body', 'image', 'category'];
 }
